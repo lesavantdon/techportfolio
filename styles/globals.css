@@ -1,0 +1,75 @@
+/* styles/globals.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styles/globals.css */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #d8dbf6;
+  text-align: center;
+  margin: 0;
+  height: 100vh; /* Ensure the page takes the full height of the viewport */
+  position: relative; /* Ensure the pseudo-element is positioned relative to the body */
+}
+
+/* Use the ::before pseudo-element for the background image */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.8; /* Set the opacity of the background image */
+  z-index: -1; /* Place the background image behind the content */
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 50;
+}
+
+nav li {
+  display: inline;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #1981e9;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.profile-container {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgb(7, 7, 7);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
