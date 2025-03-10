@@ -20,6 +20,13 @@ const Resume = () => {
           <li>MERN Development</li>
           <li>React.js & Next.js</li>
           <li>Redux</li>
+          <li>C++</li>
+          <li>VS Code</li>
+          <li>Docker</li>
+          <li>AWS</li>
+          <li>Python</li>
+          <li>Typescript</li>
+          <li>Vercel, Heroku App Deployment</li>
           <li>API development with Node.js & Express</li>
           <li>MongoDB, Mongo Compass and Atlas + SQL Databases</li>
           <li>Version Control with Git</li>

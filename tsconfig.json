@@ -1,11 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "lib": [
-      "dom",
-      "esnext"
-    ],
-    "jsx": "preserve",
+    "target": "ES6", // Updated target to ES6 for better compatibility
+    "lib": ["dom", "esnext"],
+    "jsx": "preserve", // Change preserve to react-jsx
     "strict": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -26,9 +23,9 @@
     "**/*.ts",
     "**/*.tsx",
     "next-env.d.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "pages/about.tsx",
+    "pages/about.tsx"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
