@@ -114,7 +114,14 @@ const JobHistory = () => {
         <h4>COVID-19 Response Team:</h4>
         <ul>
           <p>Part of the COVID-19 Hazard First Response Team.</p>
-          <p>Performed CPR and emergency life support procedures.</p>
+          <p>
+            Performed life saving intervention and monitoring for patients in
+            Alameda County
+          </p>
+          <p>
+            Analyze all telemetry data and diagnose medical arrhythmias for MD
+            and RN
+          </p>
         </ul>
       </Card>
     </JobHistoryContainer>

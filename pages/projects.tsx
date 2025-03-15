@@ -35,7 +35,7 @@ const Projects = () => {
             </h2>
             <p>
               This is a one of a kind, revolutionary Fitness App where workouts
-              are dynamically shuffled based on the "workoutgenreWeek." In that,
+              are dynamically shuffled based on the workoutgenreWeek. In that,
               out of each week of the month we will either have a week of Yoga,
               Calisthenics, Strength or Cardio training. Each day based off of
               the seleced week of training, we will shuffle through different
